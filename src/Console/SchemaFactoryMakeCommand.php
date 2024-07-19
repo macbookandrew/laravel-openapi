@@ -87,6 +87,7 @@ class SchemaFactoryMakeCommand extends GeneratorCommand
                         $args = [$name, $notNull ? (array)$default : null];
                         break;
                     case 'guid':
+                    case 'uuid':
                         $format = 'Schema::string(%s)->format(Schema::FORMAT_UUID)->default(%s)';
                         $args = [$name, $notNull ? (array)$default : null];
                         break;
