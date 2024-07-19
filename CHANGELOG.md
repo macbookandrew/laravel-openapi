@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.0](https://github.com/TartanLeGrand/laravel-openapi/compare/v1.13.1...v2.0.0) (2024-07-19)
+
+### Miscellaneous Chores
+
+* Removed Doctrine\DBAL dependencies from SchemaFactoryMakeCommand.php, required Laravel 11 ([#15](https://github.com/TartanLeGrand/laravel-openapi/issues/15)) ([b0f57cf](https://github.com/TartanLeGrand/laravel-openapi/commit/b0f57cf0b56a0edbe686a0202631e9cfc9b8283a))
+
 ## [1.13.1](https://github.com/TartanLeGrand/laravel-openapi/compare/v1.13.0...v1.13.1) (2024-07-13)
 
 
